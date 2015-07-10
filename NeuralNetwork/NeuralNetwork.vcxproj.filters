@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Alglib">
+      <UniqueIdentifier>{38532953-c9b2-460e-9c2a-4b108566f19e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Alglib">
+      <UniqueIdentifier>{a65ce649-a80e-4625-81d7-5a2addb63d0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NeuralNetwork">
+      <UniqueIdentifier>{90fea6e1-b7a7-48a7-b19c-2c62606c71c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Misc">
+      <UniqueIdentifier>{9698e137-aa42-4573-9e18-da29c7ea8d14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Misc">
+      <UniqueIdentifier>{58bd25af-fd14-4fb9-87d1-b922e2d7b8b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{54ec196f-afb6-4165-ae48-76f6ae77f820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Training">
+      <UniqueIdentifier>{ffc59a16-8acc-4e02-a755-fb4bbe3f8e8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Training\Debuging">
+      <UniqueIdentifier>{d48aac47-694d-4610-887b-2d0a2088f628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Training\BackPropagation">
+      <UniqueIdentifier>{bd8842af-be19-465c-97f1-e023173c53d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NeuralNetwork\BackPropagation">
+      <UniqueIdentifier>{d8c8275b-ee0c-4ff0-8cf9-d5e454b78b17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NeuralNetwork\Model">
+      <UniqueIdentifier>{be64305d-35ea-4c98-896f-c97058e63904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NeuralNetwork\Debuging">
+      <UniqueIdentifier>{fc776c14-0a05-4b71-b952-e53f03ec232b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WorkingModes">
+      <UniqueIdentifier>{b2f3bc2b-2068-4d65-8092-1811f42921b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="algib\alglibinternal.cpp">
+      <Filter>Source Files\Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="algib\alglibmisc.cpp">
+      <Filter>Source Files\Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="algib\ap.cpp">
+      <Filter>Source Files\Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="algib\linalg.cpp">
+      <Filter>Source Files\Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="algib\optimization.cpp">
+      <Filter>Source Files\Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="algib\solvers.cpp">
+      <Filter>Source Files\Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="algib\specialfunctions.cpp">
+      <Filter>Source Files\Alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="NNModel.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Visualizer.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="CSVReader.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="DataParser.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="LambdaSelection.cpp">
+      <Filter>Source Files\Training\Debuging</Filter>
+    </ClCompile>
+    <ClCompile Include="MethodBP.cpp">
+      <Filter>Source Files\Training\BackPropagation</Filter>
+    </ClCompile>
+    <ClCompile Include="NNBackPropagation.cpp">
+      <Filter>Source Files\Training\BackPropagation</Filter>
+    </ClCompile>
+    <ClCompile Include="hfunc.cpp">
+      <Filter>Source Files\Training\BackPropagation</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelLoader.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="LearningCurves.cpp">
+      <Filter>Source Files\Training\Debuging</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NumericalGradient.cpp">
+      <Filter>Source Files\Training\Debuging</Filter>
+    </ClCompile>
+    <ClCompile Include="PredictionAccuracy.cpp">
+      <Filter>Source Files\Training\Debuging</Filter>
+    </ClCompile>
+    <ClCompile Include="PredictMode.cpp">
+      <Filter>Source Files\WorkingModes</Filter>
+    </ClCompile>
+    <ClCompile Include="TrainingMode.cpp">
+      <Filter>Source Files\WorkingModes</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="ManualTestMode.cpp">
+      <Filter>Source Files\WorkingModes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="algib\alglibinternal.h">
+      <Filter>Header Files\Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="algib\alglibmisc.h">
+      <Filter>Header Files\Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="algib\ap.h">
+      <Filter>Header Files\Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="algib\linalg.h">
+      <Filter>Header Files\Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="algib\optimization.h">
+      <Filter>Header Files\Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="algib\solvers.h">
+      <Filter>Header Files\Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="algib\specialfunctions.h">
+      <Filter>Header Files\Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="algib\stdafx.h">
+      <Filter>Header Files\Alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="Visualizer.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="CSVReader.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="NeuralNetwork.h">
+      <Filter>Header Files\NeuralNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="dataParser.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="MethodBP.h">
+      <Filter>Header Files\NeuralNetwork\BackPropagation</Filter>
+    </ClInclude>
+    <ClInclude Include="NNBackPropagation.h">
+      <Filter>Header Files\NeuralNetwork\BackPropagation</Filter>
+    </ClInclude>
+    <ClInclude Include="hfunc.h">
+      <Filter>Header Files\NeuralNetwork\BackPropagation</Filter>
+    </ClInclude>
+    <ClInclude Include="NNModel.h">
+      <Filter>Header Files\NeuralNetwork\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoader.h">
+      <Filter>Header Files\NeuralNetwork\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelEvaluation.h">
+      <Filter>Header Files\NeuralNetwork\Debuging</Filter>
+    </ClInclude>
+    <ClInclude Include="NumericalGradient.h">
+      <Filter>Header Files\NeuralNetwork\Debuging</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="res.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
